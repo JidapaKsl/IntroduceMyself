@@ -1,0 +1,94 @@
+/* ฟอนต์สวย ๆ จาก Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap');
+
+body {
+  font-family: 'Sarabun', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffcab1;
+  color: #2b2b2b;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: #f69e9e;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 202, 177, 0.3);
+}
+
+h2 {
+  color: #e87a5d;
+  border-bottom: 2px solid #ffd6c1;
+  padding-bottom: 5px;
+}
+
+form {
+  margin-top: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Sarabun', sans-serif;
+}
+
+button {
+  background-color: #ff9b7d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff815c;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffd6c1;
+  color: #555;
+  margin-top: 50px;
+  font-size: 14px;
+}
